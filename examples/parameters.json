@@ -1,0 +1,26 @@
+{
+  "pool": {
+    "rate": 1000,
+    "tx_size": 16,
+    "batch_size": 200,
+    "max_queue_size": 10000
+  },
+  "mempool": {
+    "sync_timeout": 500,
+    "retry_delay": 500,
+    "payload_delay_send": 50,
+    "Requst_Pload_delay": 100,
+    "maxmempoolqueensize": 10000
+  },
+  "consensus": {
+    "leader_count": 2,
+    "leader_timeout_ms": 300,
+    "min_block_delay_ms": 20,
+    "sync_interval_ms": 100,
+    "max_payloads_per_block": 32,
+    "max_parents": 1024,
+    "max_block_bytes": 1048576,
+    "max_pending_blocks": 10000,
+    "cache_rounds": 100
+  }
+}

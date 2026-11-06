@@ -1,0 +1,24 @@
+{
+    "key": {
+        "name": "zhangjian",
+        "path": "/root/.ssh/Aliyun",
+        "accesskey": "/root/.aliyun/access.json"
+    },
+    "ports": {
+        "node": 8000,
+        "mempool":7000
+    },
+    "instances": {
+        "type": "ecs.g6e.xlarge",
+        "regions": [
+            "eu-west-1",
+            "eu-central-1",
+            "us-west-1",
+            "ap-southeast-1"
+            
+            
+            
+            
+        ]
+    }
+}
